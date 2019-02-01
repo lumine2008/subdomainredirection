@@ -97,7 +97,7 @@
     }
 
     function signIn() {
-        window.location.href = "https://nike.raymond.dgw.cloud/home2.html";
+        window.location.href = "https://nike.raymond.dgw.cloud/Home2.html";
     }
 
     function goback() {
