@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--Created:ce44715c-8c4e-446b-879c-ea9ebe0f09c8-->
-<OfficeApp 
-          xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-          xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" 
+<OfficeApp
+          xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
           xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
           xsi:type="TaskPaneApp">
 
@@ -29,7 +29,7 @@
     <AppDomain>AppDomain3</AppDomain>
   </AppDomains>
   <!--结束基本设置。 -->
-  
+
   <!--开始任务窗格模式集成。如果没有 VersionOverrides 或如果 Office 客户端版本不支持外接程序命令，将使用此部分。 -->
   <Hosts>
     <Host Name="Workbook" />
@@ -43,7 +43,7 @@
 
   <!-- 开始外接程序命令模式集成。 -->
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
-    
+
     <!-- 主机节点为必需。 -->
     <Hosts>
       <!-- 每个主机可具有不同的命令集。 -->
@@ -110,7 +110,7 @@
         </DesktopFormFactor>
       </Host>
     </Hosts>
-    
+
     <!-- 你可以在主机和窗体上使用资源。 -->
     <Resources>
       <bt:Images>
@@ -120,7 +120,7 @@
       </bt:Images>
       <bt:Urls>
         <bt:Url id="Contoso.DesktopFunctionFile.Url" DefaultValue="~remoteAppUrl/Functions/FunctionFile.html" />
-        <bt:Url id="Contoso.Taskpane.Url" DefaultValue="http://sapraymond.com/home.html" />
+        <bt:Url id="Contoso.Taskpane.Url" DefaultValue="https://raymond.dgw.cloud/home.html" />
         <bt:Url id="Contoso.GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812" />
       </bt:Urls>
       <!-- ShortStrings 最大字符数==125。 -->

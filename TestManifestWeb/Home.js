@@ -97,11 +97,11 @@
     }
 
     function signIn() {
-        window.location.href = "http://nike.sapraymond.com/home2.html";
+        window.location.href = "https://nike.raymond.dgw.cloud/home2.html";
     }
 
     function goback() {
-        window.location.href = "http://sapraymond.com/Home.html";
+        window.location.href = "https://raymond.dgw.cloud/Home.html";
     }
     
 
