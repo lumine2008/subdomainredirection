@@ -97,11 +97,11 @@
     }
 
     function signIn() {
-        window.location.href = "https://nike.sap.raymonlu.tech/Home2.html";
+        window.location.href = "http://nike.sapraymond.com/home2.html";
     }
 
     function goback() {
-        window.location.href = "https://sap.raymonlu.tech/Home.html";
+        window.location.href = "http://sapraymond.com/Home.html";
     }
     
 
